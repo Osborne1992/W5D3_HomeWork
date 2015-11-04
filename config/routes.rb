@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  resource :movies
-  resource :reviews
+  resources :movies
+  resources :reviews
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
