@@ -1,0 +1,15 @@
+<%= form_for @movie do |f| %>
+  <%= f.label :title, "Movie Title:" %><br>
+  <%= f.text_field :title %>
+  <br>
+  <br>
+  <%= f.label :genre, "Movie Genre:" %><br>
+  <%= f.text_field :genre %>
+  <br>
+  <br>
+  <%= f.label :length, "Movie Length:" %><br>
+  <%= f.text_field :length %>
+  <br>
+  <br>
+  <%= f.submit button_text, class: "button" %>
+<% end %>
